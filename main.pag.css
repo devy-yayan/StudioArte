@@ -1,0 +1,38 @@
+    header {
+        background-color: #0b6623;
+        padding: 15px;
+        text-align: center;
+    } 
+
+    body { 
+        background-color: #013220;
+        color: #f5f5dc;
+        }  
+ 
+    .subtitulos {
+        color:darkgoldenrod;
+        text-align: center;
+    }
+    
+    .titulo  {
+        color: darkgoldenrod;
+    }
+
+    section {
+        padding: 20px;
+    }
+     h2::before {
+        content: "• ";
+        color: #0dcc36e1; /* Color del punto */
+        
+        
+        }
+ 
+    .parrafos{
+        color:black;
+        border: 1px solid darkgoldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+  

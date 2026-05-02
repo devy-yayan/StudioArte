@@ -1,0 +1,14 @@
+        img[src]{
+        background-color:#0b6623 ;
+    }
+
+       .obra {
+        color:darkgoldenrod;
+    }
+
+        .parrafos_galeria {
+        color:black;
+        border: 1px solid darkgoldenrod;
+        text-align: center;
+        padding: 15px;
+    }
