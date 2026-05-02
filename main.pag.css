@@ -16,6 +16,8 @@
     
     .titulo  {
         color: darkgoldenrod;
+        text-align: center;
+        font-size: 2.2rem;
     }
 
     section {
@@ -23,16 +25,22 @@
     }
      h2::before {
         content: "• ";
-        color: #0dcc36e1; /* Color del punto */
+        color: darkgoldenrod; /* Color del punto */
         
         
         }
  
     .parrafos{
-        color:black;
+       
+        color: #f5f5dc;
         border: 1px solid darkgoldenrod;
         text-align: center;
         padding: 15px;
-    }
-
+}
+    
+.card {
+  background-color: #0b6623;   /* verde */
+  color: #f5f5dc;              /* texto claro */
+  border: 1px solid darkgoldenrod;
+}
   

@@ -7,15 +7,17 @@ nav ul {
   gap: 20px;
 }
 
+
 nav {
-  background-color: #3a6b19;
+  background-color: #0b6623;
   padding: 10px 0;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
+nav a.activo {
+  color: darkgoldenrod;
+  text-decoration:none;
   font-weight: bold;
+  border-bottom: 2px solid darkgoldenrod;
 }
 
 nav a:hover {

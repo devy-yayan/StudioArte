@@ -1,8 +1,52 @@
 
 
-        h1,h2,label,button {
-        color: darkgoldenrod;
-        }
-        nav a  {
-        color: darkgoldenrod;
-    }
+h1,h2,label,button {
+  color: darkgoldenrod;
+}
+.formulario-contacto {
+  max-width: 600px; /*limita el acnho del formulario*/
+  margin: 0 auto; /*centra horizontalmente*/
+  padding: 25px; /*espacio interno*/
+  border: 1px solid darkgoldenrod; /*borde dorado*/
+  background-color: #0b6623; /*fondo verde*/
+  border-radius: 8px; /*bordes redondeados*/
+}
+
+.campo-formulario {
+  display: flex; /*activa flexbox*/
+  flex-direction: column; /*coloca elementos en columna*/
+  margin-bottom: 15px; /*espacio entre campos*/
+}
+
+.campo-formulario label {
+  color: darkgoldenrod;
+  font-weight: bold; /*texto en negrita*/
+  margin-bottom: 5px; /*espacio entre label y campo*/
+}
+
+.campo-formulario input,
+.campo-formulario select,
+.campo-formulario textarea {
+  padding: 10px; /*espacio interno*/
+  border: 1px solid darkgoldenrod; /*borde dorado*/
+  border-radius: 5px; /*bordes redondeados*/
+  font-size: 1rem; /*tamaño de texto*/
+}
+
+.campo-formulario textarea {
+  resize: vertical; /*permite cambiar altura pero no ancho*/
+}
+
+button {
+  background-color: darkgoldenrod;
+  color: #013220;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f5f5dc;
+}
